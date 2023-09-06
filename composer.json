@@ -12,6 +12,13 @@
       "email": "scm.sawkyawmyint@gmail.com"
     }
   ],
+  "extra": {
+    "laravel": {
+      "providers": [
+        "MTM\\DBEXPORT\\DatabaseExportServiceProvider"
+      ]
+    }
+  },
   "minimum-stability": "stable",
   "require": {}
 }
