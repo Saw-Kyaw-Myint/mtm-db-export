@@ -1,0 +1,11 @@
+{
+    "name": "mtm/db-export",
+    "description": "Database export packages",
+    "authors": [
+        {
+            "name": "Saw Kyaw Myint"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
