@@ -2,7 +2,7 @@
 
 ## Installing package
 
-### Add reposity in composer.json
+### Add reposity in composer.json file
 
 ```
 "repositories": [
@@ -10,10 +10,10 @@
             "type": "vcs",
             "url": "https://github.com/Saw-Kyaw-Myint/mtm-db-export.git"
         }
-]
+],
 ```
 
-### Add package name at required key in composer.json
+### Add package name at required key in composer.json file
 
 ```
 "require": {
@@ -28,16 +28,13 @@
 composer update
 ```
 
-### Add the service provider in your config/app.php file:
+If you want to know about package,run command
 
 ```
-'providers' => [
-    // ...
-    MTM\DBEXPORT\DatabaseExportServiceProvider::class,
-];
+php artisan about
 ```
 
-Run database-export command
+### Run database-export command
 
 ```
 php artisan db:db-export
