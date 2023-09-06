@@ -18,7 +18,7 @@
 ```
 "require": {
     //....
-"mtm/db-export": "dev-main",
+    "mtm/db-export": "dev-main",
 }
 ```
 
@@ -33,6 +33,6 @@ composer update
 ```
 'providers' => [
     // ...
-MTM\DBEXPORT\DatabaseExportServiceProvider::class,
+    MTM\DBEXPORT\DatabaseExportServiceProvider::class,
 ];
 ```
