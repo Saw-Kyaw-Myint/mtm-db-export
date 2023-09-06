@@ -1,9 +1,15 @@
 {
-  "name": "mtmmtm/db-export",
+  "name": "mtm/db-export",
   "description": "Database export packages",
+  "autoload": {
+    "psr-4": {
+      "MTM\\DBEXPORT\\": "src/"
+    }
+  },
   "authors": [
     {
-      "name": "Saw Kyaw Myint"
+      "name": "Saw Kyaw Myint",
+      "email": "scm.sawkyawmyint@gmail.com"
     }
   ],
   "minimum-stability": "stable",
