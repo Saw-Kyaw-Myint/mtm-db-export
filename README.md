@@ -36,3 +36,9 @@ composer update
     MTM\DBEXPORT\DatabaseExportServiceProvider::class,
 ];
 ```
+
+Run database-export command
+
+```
+php artisan db:db-export
+```
